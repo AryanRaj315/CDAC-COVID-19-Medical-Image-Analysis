@@ -19,19 +19,20 @@ The main requirements are listed below:
 
 
 ### Dataset
-We have used the open source dataset from https://github.com/UCSD-AI4H/COVID-CT/issues it is currently the largest COVID19 dataset available. We hope to add more dataset in future.
+We have used the open source dataset from https://github.com/UCSD-AI4H/COVID-CT/issues it is currently the largest COVID19 dataset available. We hope to add more dataset in the future.
 
 ### Data distribution
 
 Chest radiography images distribution
 |  Type | Normal | COVID-19 | Total |
 |:-----:|:------:|:--------:|:-----:|
-| train |  xxxx  |   xxx    | xxxxx |
-|  test |   xxx  |    xx    |   xxx |
+| Train |   156  |    279   |  435  |
+|  Val  |    39  |     70   |  109  |
 
 
 ## Training and Evaluation
-The network takes as input an image of shape (N, 256, 256, 3) and outputs the softmax probabilities as (N, 1), where N is the number of batches. We have used blah blah
+The network takes as input an image of shape (N, 256, 256, 3) and outputs the softmax probabilities as (N, 1), where N is the number of batches. We have splite the dataset into two parts training and validation while keeping the distribution of Covid/Non-Covid 
+examples similar in both.
 
 
 ## Results
