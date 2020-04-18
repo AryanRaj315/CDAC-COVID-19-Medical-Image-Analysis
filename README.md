@@ -36,6 +36,8 @@ Chest radiography images distribution
 | Train |   156  |    279   |  435  |
 |  Val  |    39  |     70   |  109  |
 
+![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/train-covid.png) ![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/val-covid.png)
+
 
 ## Training and Evaluation
 The network takes as input an image of shape (N, 256, 256, 3) and outputs the softmax probabilities as (N, 1), where N is the number of batches. We have splite the dataset into two parts training and validation while keeping the distribution of Covid/Non-Covid 
