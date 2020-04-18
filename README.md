@@ -1,4 +1,10 @@
 # CDAC-COVID-19-Medical-Image-Analysis
+## COVID-19
+The coronavirus outbreak came to light on December 31, 2019 when China informed the World Health Organisation of a cluster of cases of pneumonia of an unknown cause in Wuhan City in Hubei Province. Among the tens of thousands of cases detected, several cases of COVID-19 are asymptomatic. These most common symptoms of the virus are fever and a dry cough. Some people may also experience aches, headache, tightness or shortness of breath.
+![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/covid19-1.jpeg)
+It is quiet possible to use Artificial Intelligence algorithms to detect the disease using automatic X-ray analysis to support radiologists in turn reducing the diagnosis time significantly.
+
+
 COVID-19 Medical image analysis
 
 **Note: All the models in this repo are currently at a research stage and not yet intended as production-ready models (not meant for direct clinical diagnosis), and we are working continuously to improve them as new data becomes available. Please do not use these for self-diagnosis and seek help from your local health authorities.**
