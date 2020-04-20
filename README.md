@@ -2,7 +2,7 @@
 ## COVID-19
 The coronavirus outbreak came to light on December 31, 2019 when China informed the World Health Organisation of a cluster of cases of pneumonia of an unknown cause in Wuhan City in Hubei Province. Among the tens of thousands of cases detected, several cases of COVID-19 are asymptomatic. These most common symptoms of the virus are fever and a dry cough. Some people may also experience aches, headache, tightness or shortness of breath. 
 
-![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Proactive%20approach.png)
+![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/Proactive%20approach.png)
 Our aim in this project is to demonstrate the use of Artificial Intelligence algorithms to detect the disease using automatic X-ray analysis to support radiologists in turn reducing the diagnosis time significantly.
 
 
@@ -36,13 +36,11 @@ Chest radiography images distribution
 | Train |   156  |    279   |  435  |
 |  Val  |    39  |     70   |  109  |
 
-![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/train-covid.png) ![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/val-covid.png)
+![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/train-covid.png) ![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/val-covid.png)
 
 
 ## Training and Evaluation
-The network takes as input an image of shape (N, 256, 256, 3) and outputs the softmax probabilities as (N, 1), where N is the number of batches. We have splite the dataset into two parts training and validation while keeping the distribution of Covid/Non-Covid 
-examples similar in both.
-
+Our training strategy was completely focused on reducing the false negatives while maitaining accuracy and sensitivity. We employed unique loss function to achieve the same. A combination of high weighted FBeta loss along with BCE is employed. The network takes as input an image of shape (N, 256, 256, 3) and outputs the softmax probabilities as (N, 1), where N is the number of batches. The dataset is split maintaing the ratio. Heavy augmentation and multi stage training achieved some good and robust results.
 
 ## Results
-These are the final results for 
+![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/loss.png) ![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/accuracy.png)
