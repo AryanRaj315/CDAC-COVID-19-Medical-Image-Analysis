@@ -44,3 +44,13 @@ Our training strategy was completely focused on reducing the false negatives whi
 
 ## Results
 ![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/loss.png) ![alt text](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/accuracy.png)
+
+## Frontend for Mobile devices
+### Homepage shows latest updates related to Covid-19 along with necessary navigation tools
+![Homepage](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_homepage.jpg)
+### Diagnostic system to predict results
+![Diagnostics](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_diagnostic.jpg)
+### Charts depicting daily rise in cases to create analysis
+![Charts](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_charts.jpg)
+### Total infections district wise
+![Infections](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_cases.jpg)
