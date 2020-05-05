@@ -48,7 +48,7 @@ Our training strategy was completely focused on reducing the false negatives whi
 
 ## Frontend for Mobile devices
 #### Homepage shows latest updates related to Covid-19 along with necessary navigation tools
-![home](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_homepage.jpg | width=150)
+![home](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_homepage.jpg){:height="300px" width="400px"}
 #### Diagnostic system to predict results
 ![model](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_diagnostic.jpg | width=150) ![charts](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_charts.jpg | width=150)
 #### Total infections district wise
