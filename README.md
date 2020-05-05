@@ -47,11 +47,9 @@ Our training strategy was completely focused on reducing the false negatives whi
 
 
 ## Frontend for Mobile devices
-### Homepage shows latest updates related to Covid-19 along with necessary navigation tools
+#### Homepage shows latest updates related to Covid-19 along with necessary navigation tools
 ![home](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_homepage.jpg){:height="320px" width="180px"}
-### Diagnostic system to predict results
-![model](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_diagnostic.jpg){:height="320px" width="180px"}
-### Charts depicting daily rise in cases to create analysis
-![charts](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_charts.jpg){:height="320px" width="180px"}
-### Total infections district wise
-![cases]("https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_cases.jpg){:height="320px" width="180px"}
+#### Diagnostic system to predict results
+![model](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_diagnostic.jpg) ![charts](https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_charts.jpg)
+#### Total infections district wise
+![cases]("https://github.com/AryanRaj315/CDAC-COVID-19-Medical-Image-Analysis/blob/master/Images/c_cases.jpg)
